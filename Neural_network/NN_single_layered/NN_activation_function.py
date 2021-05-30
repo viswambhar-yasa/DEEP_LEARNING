@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def activation_function(Z,type='sigmoid'):
+def activation_function(Z):
     '''
     Compute the activation function required from build NN(Neural Networks)
 
@@ -13,6 +13,7 @@ def activation_function(Z,type='sigmoid'):
     Returns:
     s -- activation_function(z)
     '''
-    if type=='sigmoid':
-        AF=1/(1+np.exp(-Z))
+
+    AF=1/(1+np.exp(-Z))
     return AF
+
