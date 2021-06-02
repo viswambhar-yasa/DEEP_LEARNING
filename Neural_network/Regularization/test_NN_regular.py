@@ -1,6 +1,6 @@
 import numpy as np
 import pytest 
-from NN_regularization import forward_propagation, backward_propagation, cost_function
+from NN_L2_regularization import forward_propagation, backward_propagation, cost_function
 
 def test__forward_propogation_2_hidden_layers():
     np.random.seed(1)
